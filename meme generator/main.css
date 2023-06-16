@@ -2,7 +2,8 @@
     display: inline-block;
     margin: 10px;
     position: relative;
-  }
+    font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif;
+}
   
 .top-text {
     position: absolute;
