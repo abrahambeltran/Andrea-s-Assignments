@@ -19,8 +19,8 @@ function memeMaker(event) {
     bottomTextElement.innerText = bottomText;
 
     memeContainer.appendChild(memeImage);
-    memeContainer.appendChild(bottomTextElement);
     memeContainer.appendChild(topTextElement);
+    memeContainer.appendChild(bottomTextElement);
 
     document.getElementById('memeContainer').appendChild(memeContainer);
 
