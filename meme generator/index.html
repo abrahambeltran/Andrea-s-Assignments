@@ -10,16 +10,18 @@
         <title>meme generator</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="main.css">
     </head>
-    <script src="index.js" async defer></script>
     <body>
-        <p>Player 1: ABRAHAM</p>
-        <form>
-            <input type="text" placeholder="URL">
-            <input type="text" placeholder="TOP TEXT">
-            <input type="text" placeholder="BOTTOM TEXT">
-            <input type="submit">
-        </form>
+        <h1>ME ME GEN</h1>
+        <form id="memeForm">
+            <input type="url" id="imageInput" placeholder="Image URL" required>
+            <input type="text" id="topTextInput" placeholder="Top Text" required>
+            <input type="text" id="bottomTextInput" placeholder="Bottom Text" required>
+            <button type="submit">Generate</button>
+          </form>
+          
+          <div id="memeContainer"></div>
+        <script src="index.js"></script>
     </body>
 </html>
